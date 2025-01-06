@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#-t : Display TCP connections.
+#-u : Display UDP connections.
+#-l : Display listening sockets.
+#-n : Display numerical addresses and port numbers.
+#-p : Display the PID and name of the program to which each socket belongs.
+netstat -lp
